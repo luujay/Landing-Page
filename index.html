@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page</title>
+    <link href="Tstyle.css" rel="stylesheet">
 </head>
 <body>
     <header id="header">
         <nav id="nav-bar">
-            <img src="">
+            <div class="topnav">
+                <img src="https://cdn.myanimelist.net/images/voiceactors/3/56154.jpg">
+                <a href="#information" class="active">information</a>
+                <a href="#form">Form</a>
+                <a href="#video">Video</a>
+                <a href="#tickets">Tickets</a>
+            </div>
+            
             <h1>Toshiki Kadomatsu concert tickets</h1>
     </header>
     
-        <h2>Information</h2>
+        <h2 id="information">Information</h2>
         <p>Toshiki Kadomatsu (角松 敏生, Kadomatsu Toshiki, born 12 August 1960) is a Japanese rock/R&B singer-songwriter, musician, and producer. He has released many studio albums, as well as several instrumental and live albums. He has been active since at least 1981[4] and is still active, having released his most recent album in May 2020.</p>
         <p>toshiki Kadomatsu's concerts are always something to look forward to as he expresses his vibrant yet contagious energy while he performs his iconic songs. If you are going to attend his concerts then we are sure that you will enjoy his performances! 
         </p>
@@ -29,9 +37,10 @@
     <section id="tickets">
         <h2>Ticket prices</h2>
 
+        <div class="container">
         <div id="option1">
-            <header>
-                <h3>R300</h3>
+            <header class="header1">
+                <h3 >R300</h3>
             </header>
             <ul>
                 <li>Free snacks</li>
@@ -39,7 +48,7 @@
             </ul>
         </div>
         <div id="option2">
-            <header>
+            <header class="header2">
                 <h3>R700</h3>
             </header>
             <ul>
@@ -49,7 +58,7 @@
             </ul>
         </div>
         <div id="option3">
-            <header>
+            <header class="header3">
                 <h3>R1200</h3>
             </header>
             <ul>
@@ -60,7 +69,14 @@
                 <li>VIP parking</li>
             </ul>
         </div>
+        </div>
     </section>
-    <footer><p><a href="#header">Back to top</a></p></footer>
+    <footer><p><a href="#header">Back to top</a></p>
+    <address id="Contact">
+        Contact us on: 011-044-9278<br>
+        Visit our official site: http://www.toshiki-kadomatsu.jp/<br>
+        
+    </address>
+    </footer>
 </body>
 </html>

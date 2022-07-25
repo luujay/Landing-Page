@@ -1,0 +1,57 @@
+body{
+    background-color: #242582;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flexbox;
+margin: auto;
+text-align: center;
+}
+.topnav{
+    overflow: hidden;
+    background-color: black;
+    height: auto;
+}
+.topnav img{
+    border-radius: 70px;
+    image-rendering: auto;
+    max-height: 44px;
+    max-width: 50px;
+    float: left;
+    margin-left: 15px;
+    overflow: hidden;
+}
+.topnav a{
+    float:right;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+.topnav a:hover{
+background-color: #2F2FA2;
+}
+#tickets{
+    border: 3px solid black;
+    padding-bottom: 60px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 30px;
+    border: 0;
+    height: 300px;
+}
+div{
+    border: 2px solid ;
+}
+li{
+    margin-bottom: 15px;
+}
+form figcaption{
+    padding: 20px;
+}
+form{
+    padding: 25px
+}
+    
