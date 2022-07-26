@@ -5,11 +5,33 @@ body{
 display: flexbox;
 margin: auto;
 text-align: center;
+padding-top:0px;
+}
+h1{
+   
+    padding-top: 55px;
+}
+
+
+#nav-bar{
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    
+
+    align-items: center;
+    transition: 0.6s;
+    z-index: 10000;
+
+
 }
 .topnav{
     overflow: hidden;
     background-color: black;
     height: auto;
+    
 }
 .topnav img{
     border-radius: 70px;
@@ -33,20 +55,30 @@ background-color: #2F2FA2;
 }
 #tickets{
     border: 3px solid black;
-    padding-bottom: 60px;
+    
+    background-color: #2F2FA2;
+    width: 50%;
+    margin: auto;
+    
 }
 .container{
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-column-gap: 30px;
-    border: 0;
-    height: 300px;
+   display:flex;
+  flex-wrap: wrap;
+  flex-basis: 33%;
+   
 }
+
+   
+
 div{
+    background-color:#2F2FA2;
     border: 2px solid ;
+    flex-basis: 100%;
+   
 }
 li{
     margin-bottom: 15px;
+    list-style: none;
 }
 form figcaption{
     padding: 20px;
@@ -54,4 +86,36 @@ form figcaption{
 form{
     padding: 25px
 }
+button{
+    padding: 0px 14px;
+
+}
+footer{
+    padding-bottom: 30px;
+}
     
+@media screen and (min-width: 480px){
+    body{
+        font-size: 1.3rem;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    iframe{ max-width: 470px;
+        
+    }
+    #email{
+        padding: 8px
+    }
+    #submit{
+        padding: 9px;
+        font-weight: bolder;
+    }
+    
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
